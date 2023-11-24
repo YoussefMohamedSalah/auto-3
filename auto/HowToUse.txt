@@ -1,6 +1,10 @@
-1- Make sure the auto file is beside the project files.
-2- create package.json File beside auto file.
-3- add the following code in package.json.
+## Prerequisites
+
+Before you begin, make sure to follow these steps:
+
+1. Ensure that the "auto" file is located beside your project files.
+2. Create a `package.json` file beside the "auto" file.
+3. Add the following code to the `package.json` scripts file:
 
 {
   "name": "project_name",
@@ -43,11 +47,13 @@
   }
 }
 
-4- run this command to add all initial code.
-yarn run init
-* this will add initial code required to do http requests using axios.
-* Inputs validation easy to use.
+## Getting Started
 
-5- run this command to add any new page.
-yarn run create --fn FILENAME
-* this will add (crud, screens file, types for the new page) 
+1. Run the following command to add the initial code for HTTP requests using Axios and easy-to-use input validation:
+# yarn run init
+This command sets up the initial codebase.
+
+2. To add a new page, run the following command:
+# yarn run create --fn FILENAME
+This command will automatically generate CRUD functionality, screen files, and types for the new page.
+Make sure to replace "FILENAME"  with the actual file name. Adjust the commands according to your project structure and needs.
