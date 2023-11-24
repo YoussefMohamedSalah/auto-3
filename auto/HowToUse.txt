@@ -47,6 +47,8 @@ Before you begin, make sure to follow these steps:
   }
 }
 
+Make sure to replace "project-name" with the actual project name and folder name. Adjust the commands according to your project structure and needs.
+
 ## Getting Started
 
 1. Run the following command to add the initial code for HTTP requests using Axios and easy-to-use input validation:
