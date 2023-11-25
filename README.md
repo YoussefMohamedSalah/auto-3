@@ -16,7 +16,7 @@ Before you begin, make sure to follow these steps:
   "start": "react-scripts start",
   "build": "react-scripts build",
   "init": "yarn install && ts-node init.ts",
-  "create-file": "ts-node src/auto/ag.ts"
+  "create": "ts-node src/auto/ag.ts"
 },
 
 ## Getting Started
